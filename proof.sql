@@ -23,7 +23,7 @@ VALUES (1, 1, -50.00, CURRENT_DATE);
 -- Error message Neon returned:
 -- ERROR: new row for relation "payment_application"
 -- violates check constraint "payment_application_amount_applied_check"
--- PASTE ERROR HERE
+-- (SQLSTATE 23514)
 
 
 -- =====================================================================
